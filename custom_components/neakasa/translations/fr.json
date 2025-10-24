@@ -4,16 +4,16 @@
         "step": {
             "user": {
                 "title": "Neakasa Configuration",
-                "description": "The credentials will be used to pull the data from the server.",
+                "description": "Les informations d'identification seront utilisées pour récupérer les données du serveur.",
                 "data": {
                     "username": "Utilisateur",
                     "password": "Mot de passe"
                 }
             },
             "device": {
-                "description": "Sélectionnez l’un des identifiants d’appareil disponibles.",
+                "description": "Sélectionnez l'un des identifiants d'appareil disponibles.",
                 "data": {
-                    "device_id": "Identifiants d’appareil"
+                    "device_id": "Identifiants de l'appareil"
                 }
             }
         },
@@ -29,7 +29,7 @@
                 "name": "Nettoyer"
             },
             "level": {
-                "name": "Nivellement"
+                "name": "Niveller"
             }
         },
         "binary_sensor": {
