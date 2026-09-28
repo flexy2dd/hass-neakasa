@@ -10,17 +10,35 @@
                     "password": "Mot de passe"
                 }
             },
-            "device": {
-                "description": "Sélectionnez l'un des identifiants d'appareil disponibles.",
+            "reauth_confirm": {
+                "title": "Ré-authenticate Neakasa",
+                "description": "Vos identifiants Neakasa pour {username} ne sont plus valides. Saisissez de nouveaux identifiants pour rétablir l'accès.",
                 "data": {
-                    "device_id": "Identifiants de l'appareil"
+                    "username": "Utilisateur",
+                    "password": "Mot de passe"
+                }
+            },
+            "reconfigure": {
+                "title": "Reconfiguration de Neakasa",
+                "description": "Mettez à jour les identifiants de votre compte Neakasa..",
+                "data": {
+                    "username": "Utilisateur",
+                    "password": "Mot de passe"
                 }
             }
         },
         "abort": {
-            "connenction": "Erreur lors de la connexion.",
             "authentication": "Erreur lors de l'authentification.",
+            "connection": "Erreur lors de la connexion.",
             "unknown": "Erreur inconnue"
+            "no_devices_found": "Aucune litière trouvée pour ce compte.",
+            "reauth_successful": "Ré-authentication réussie.",
+            "reconfigure_successful": "Reconfiguration réussie."
+        },
+        "error": {
+            "authentication": "Utilisateur ou mot de passe invalide.",
+            "connection": "Impossible de se connecter aux serveurs de Neakasa. Vérifiez votre réseau.",
+            "no_devices_found": "Aucune litière trouvée pour ce compte."
         }
     },
     "entity": {
